@@ -4,13 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Abiso Clicker Pro is an enterprise-grade wireless presentation remote for Windows and Android. Control PowerPoint, Canva, and Google Slides with zero lag.">
-    <title>Abiso Clicker Pro V3.0 | Enterprise Presentation Control</title>
+    <title>Abiso Clicker Pro V3.1 | Enterprise Presentation Control</title>
     <link rel="icon" type="image/png" href="new_abiso_logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
 <body>
+
+<!-- TOP PROMO STRIP WITH COUNTDOWN -->
+<div class="strip" id="promoStrip">
+    🎁 <b>Founder’s Gratitude Promo:</b> Lifetime Pro for <b data-now>₱299</b> instead of ₱699 · Ends Dec 31 · <span class="timer" data-timer></span>
+    <a href="#pricing">See offer</a>
+</div>
 
 <nav>
 <div class="nav-inner">
@@ -22,36 +28,39 @@
       <a href="#features">Features</a>
       <a href="#demo">Demo</a>
       <a href="#install">Install</a>
-      <a href="#faq">FAQ</a>
+      <a href="#pricing">Pricing</a>
       <a href="https://apps.microsoft.com/detail/9MZBPGMQS55P" target="_blank" class="nav-store-btn">🛍️ Microsoft Store</a>
   </div>
 </div>
 </nav>
 
 <header>
-<div class="container">
-  <span class="badge v3">v 3.0.0 Enterprise Release</span>
-  <h1>Ditch the USB Dongle.<br><span>Command the Stage.</span></h1>
-  <p class="hero-sub">Turn your Android phone into an elite presentation command center. Seamlessly control <strong>PowerPoint, Canva, and Google Slides</strong> with zero-lag, live speaker notes, and interactive stage tools.</p>
+<div class="container hero-grid">
+  <div class="hero-text">
+      <span class="badge v3">v 3.1.0 Enterprise Release</span>
+      <h1>Ditch the USB Dongle.<br><span>Command the Stage.</span></h1>
+      <p class="hero-sub">Turn your Android phone into an elite presentation command center. Seamlessly control <strong>PowerPoint, Canva, and Google Slides</strong> with zero-lag, live speaker notes, and interactive stage tools.</p>
 
+      <div class="store-anchor-bar">
+          <span>🛡️ Certified by Microsoft:</span>
+          <strong>Also available directly on the <a href="https://apps.microsoft.com/detail/9MZBPGMQS55P" target="_blank">Official Microsoft Store</a></strong>
+      </div>
+
+      <div class="promo-box">
+          <span class="badge promo">🎉 60-DAY GRATITUDE PROMO (SPECIAL DEAL)</span>
+          <h3>Lifetime Pro License for just <span data-now>₱299</span></h3>
+          <p>Legacy physical clickers cost upwards of ₱6,000 and do nothing more than click next. Start completely free with <strong>7 Active-Use Days</strong>. Once exhausted, the app remains a free basic clicker forever, or you can unlock the full Pro arsenal for a one-time payment of <strong data-now>₱299</strong>. No recurring fees, ever.</p>
+          <div class="limit">⚠️ Strictly limited to the first 1,000 early adopters. Ends in December.</div>
+      </div>
+  </div>
+
+  <!-- EMBEDDED VERTICAL YOUTUBE SHORT -->
   <div class="hero-video-wrapper">
-      <video autoplay loop muted playsinline>
-          <source src="demo.mp4" type="video/mp4">
-      </video>
+      <iframe src="https://www.youtube.com/embed/Hn0IUUNYrOc?autoplay=1&mute=1&loop=1&playlist=Hn0IUUNYrOc&controls=0&modestbranding=1&rel=0" allow="autoplay; encrypted-media" allowfullscreen title="Abiso Clicker Pro Promo"></iframe>
   </div>
+</div>
 
-  <div class="store-anchor-bar">
-      <span>🛡️ Certified by Microsoft:</span>
-      <strong>Also available directly on the <a href="https://apps.microsoft.com/detail/9MZBPGMQS55P" target="_blank">Official Microsoft Store</a></strong>
-  </div>
-
-  <div class="promo-box">
-      <span class="badge promo">🎉 FOUNDER'S EDITION (EARLY ACCESS)</span>
-      <h3>Lifetime Pro License for just ₱699 / $14.99</h3>
-      <p>Legacy physical clickers cost upwards of ₱6,000 and do nothing more than click next. Start completely free with <strong>7 full presentation sessions that never expire</strong>. When your trial is finished, unlock your Lifetime Pro License with a single tap directly inside the Android app—no recurring fees, ever.</p>
-      <div class="limit">⚠️ Strictly limited to the first 1,000 early adopters.</div>
-  </div>
-
+<div class="container">
   <div class="download-grid">
       <!-- CARD 1 -->
       <div class="dl-card">
@@ -77,12 +86,12 @@
               <h3>Android Remote</h3>
               <p>The master controller with secret speaker notes, 144Hz laser pointer, timers, and media remote. Compatible with Android 8.0+.</p>
             <div class="note">
-                  ✓ 7 Non-expiring free stage sessions<br>
-                  ✓ 1-tap Pro upgrade & payment inside app
+                  ✓ 7 Active-Day Free Trial<br>
+                  ✓ 1-tap Pro upgrade via Google Play
               </div>
           </div>
           <div class="dl-card-actions">
-              <a href="https://github.com/abisosolutions/Abiso-Clicker-Pro-Distribution/releases/latest/download/Abiso_Clicker_Pro_v3.apk" class="btn btn-secondary">Download App (.apk)</a>
+              <a href="https://play.google.com/store/apps/details?id=com.app.remotecontroller" class="btn btn-secondary">Get it on Google Play</a>
               <span class="btn-store-sub muted">Free Download • Upgrade in App</span>
           </div>
       </div>
@@ -111,7 +120,7 @@
               <h3>PPT Media Bridge</h3>
               <p>PowerPoint VSTO Add-in for 0ms background video/audio playback. <strong>Only needed if you installed the Host from the Microsoft Store.</strong></p>
               <div class="note orange">
-                  💡 <em>If you downloaded Card 1 (All-in-One .exe), this is already installed!</em>
+                  💡 <em>If you downloaded Card 1, this is already installed!</em>
               </div>
           </div>
           <div class="dl-card-actions">
@@ -123,15 +132,46 @@
 </div>
 </header>
 
-<section class="risk-section">
+<section id="pricing" class="risk-section">
 <div class="container">
-  <h2>Test It on a Real Audience. 100% Risk-Free.</h2>
-  <p style="color: var(--text-muted); max-width: 760px; margin: 0 auto 16px; font-size: 1.05rem;">
-      Every download comes pre-loaded with <strong>7 Full Presentation Sessions for FREE</strong>. These credits <strong>never expire</strong>—no ticking 7-day clocks, no upfront credit card, and zero automatic subscriptions. Command real stages, use the 144Hz laser, and preview your hidden teleprompter notes live.
+  <h2>Try it Free. Keep it for the price of a coffee.</h2>
+  <p style="color: var(--text-muted); max-width: 760px; margin: 0 auto 36px; font-size: 1.05rem;">
+      Every download comes pre-loaded with a <strong>7 Active-Day Pro Trial</strong>. A day is only counted when you actually present. After that, Abiso transforms into a free permanent clicker. 
   </p>
-  <p style="color: var(--text-muted); max-width: 760px; margin: 0 auto; font-size: 0.95rem;">
-      Once your 7 free sessions are used, upgrading to the permanent <strong>Lifetime Pro License</strong> is instant: seamlessly complete your one-time payment directly inside the <strong>Android App</strong> via GCash, Maya, Card, or PayPal. Pay once, command the stage forever.
-  </p>
+  
+  <div class="plans">
+    <!-- FREE TIER -->
+    <div class="plan">
+      <h3>Basic Free Tier</h3>
+      <div class="big">₱0</div>
+      <ul>
+        <li>7 Active-Day Full Pro Trial included</li>
+        <li>Unlimited local Wi-Fi / Hotspot pairing</li>
+        <li>Instant 0.5s PowerPoint deck launches</li>
+        <li>Unlimited Next / Previous slide navigation</li>
+        <li class="locked">Canva & Google Slides Sync</li>
+        <li class="locked">Speaker Notes & Teleprompter</li>
+        <li class="locked">Lasers, Spotlight & Timers</li>
+      </ul>
+      <a class="btn btn-ghost" href="#install">Start free</a>
+    </div>
+
+    <!-- PRO TIER -->
+    <div class="plan pro">
+      <h3>Lifetime Pro · Founder's Promo</h3>
+      <div class="price"><span class="big" data-now>₱299</span><span class="strike" data-strike>₱699</span></div>
+      <ul>
+        <li>All Basic features included</li>
+        <li>Canva & Google Slides Web Integration</li>
+        <li>Live Stage Monitor & Teleprompter Notes</li>
+        <li>144Hz Vector Laser, Spotlight & Zoom</li>
+        <li>Audience Break Timers & Delivery Reports</li>
+        <li>One-time payment. Tied to Google Account.</li>
+      </ul>
+      <span class="timer-box" data-promo-only>Ends in: <span class="timer" data-timer></span></span>
+      <a class="btn btn-main" href="https://play.google.com/store/apps/details?id=com.app.remotecontroller">Download & unlock in app</a>
+    </div>
+  </div>
 </div>
 </section>
 
@@ -150,7 +190,7 @@
       <div class="feat-card">
           <div class="feat-icon">📱</div>
           <h4>Teleprompter & Live Preview</h4>
-          <p>Read your secret speaker notes right on your phone while the audience only sees the presentation. Includes silent haptic pacing alerts so you never lose track of time.</p>
+          <p>Read your secret speaker notes right on your phone while the audience only sees the slides. Includes silent haptic pacing alerts so you never lose track of time.</p>
       </div>
       <div class="feat-card">
           <div class="feat-icon">🔴</div>
@@ -209,8 +249,8 @@
 <section id="demo" class="demo-section">
 <div class="container">
   <div class="section-header">
-      <h2>See It In Action</h2>
-      <p style="color: var(--text-muted);">Watch the setup, features, and live presentation control.</p>
+      <h2>Setup Guides</h2>
+      <p style="color: var(--text-muted);">Watch the setup and feature guides.</p>
   </div>
   <div class="video-grid">
       <div class="video-card">
@@ -239,19 +279,19 @@
 <div class="container">
   <div class="section-header">
       <h2>Direct Developer Release. 100% Verifiable.</h2>
-      <p style="color: var(--text-muted); max-width: 800px; margin: 0 auto;">We distribute directly to our early adopters while maintaining official listings on the Microsoft Store. Radical transparency from day one.</p>
+      <p style="color: var(--text-muted); max-width: 800px; margin: 0 auto;">We distribute directly to our early adopters while maintaining official listings on the Microsoft Store and Google Play. Radical transparency from day one.</p>
   </div>
   <div class="trust-box">
       <h3 style="color: var(--accent);">Our Privacy & Security Guarantee</h3>
       <ul>
-          <li><strong>Certified Store Listing:</strong> Abiso Clicker Pro Host is officially vetted and available on the <a href="https://apps.microsoft.com/detail/9MZBPGMQS55P" target="_blank">Microsoft Store</a>.</li>
+          <li><strong>Certified Store Listing:</strong> Abiso Clicker Pro is officially vetted by Google Play Protect and the <a href="https://apps.microsoft.com/detail/9MZBPGMQS55P" target="_blank">Microsoft Store</a>.</li>
           <li><strong>No invasive permissions:</strong> Because we use modern Android Scoped Storage and Local WiFi APIs, we <strong>never</strong> ask for your Contacts, Storage, or Location.</li>
           <li><strong>100% Local Wi-Fi Processing:</strong> Your presentation files never leave your room. No cloud processing or external server relay is involved during your slideshows.</li>
           <li><strong>No hidden telemetry:</strong> The PDF pacing reports you generate are saved locally on your phone's storage. We never see them.</li>
       </ul>
       <div class="trust-badges">
           <a href="https://apps.microsoft.com/detail/9MZBPGMQS55P" target="_blank" class="trust-badge-pill">🛍️ Microsoft Store Certified</a>
-          <a href="https://microsoftedge.microsoft.com/addons/detail/ajcghecbgeinlcilkclniljojjcfmofm" target="_blank" class="trust-badge-pill">🌐 Edge Add-ons Verified</a>
+          <a href="https://play.google.com/store/apps/details?id=com.app.remotecontroller" target="_blank" class="trust-badge-pill">📱 Google Play Protect</a>
           <a href="https://www.virustotal.com/" target="_blank" class="vt-link">🔍 Verify Hashes on VirusTotal</a>
       </div>
   </div>
@@ -285,8 +325,7 @@
 
   <div id="tab-android" class="tab-content">
       <ol>
-          <li>Download the <strong>Abiso_Clicker_Pro_v3.apk</strong> to your Android phone.</li>
-          <li>Tap the file to install. If prompted by Android, tap <strong>Settings</strong> and enable "Allow from this source".</li>
+          <li>Download <strong>Abiso Clicker Pro</strong> from the Google Play Store to your Android phone.</li>
           <li>Open the app. Enter the IP Address and PIN shown on your laptop, or tap the QR icon to scan the screen.</li>
           <li>Tap <strong>Connect</strong>. You are now controlling your laptop!</li>
       </ol>
@@ -331,21 +370,12 @@
   </div>
 
   <div class="faq-item">
-      <div class="faq-q" onclick="toggleFaq(this)">Why is Abiso available as both a Direct Download and on the Microsoft Store?</div>
+      <div class="faq-q" onclick="toggleFaq(this)">How does the Freemium model work, and how do I upgrade?</div>
       <div class="faq-a">
-          We provide both options for maximum convenience:<br><br>
-          • <strong>Direct All-in-One Installer (.exe):</strong> Best for general users because it bundles the Windows Host and PowerPoint Media Bridge into a single, seamless 1-click setup.<br>
-          • <strong>Microsoft Store Listing:</strong> Ideal for corporate or locked-down IT laptops where users are restricted from running external installers and must install software through the official Windows Store.
-      </div>
-  </div>
-
-  <div class="faq-item">
-      <div class="faq-q" onclick="toggleFaq(this)">How do the 7 Free Sessions work, and how do I upgrade?</div>
-      <div class="faq-a">
-          We believe in radical transparency: you should never pay for stage software until you've verified that it makes you look like a pro in front of a live audience.<br><br>
-          • <strong>7 Non-Expiring Sessions:</strong> A session credit is only used when you actively connect and run a presentation. If your next talk is weeks away, your unused credits will still be waiting for you. No time limits.<br><br>
-          • <strong>Seamless In-App Upgrade:</strong> After your 7 free sessions conclude, you can unlock lifetime unlimited presentations with a single tap inside the Android app. There are no confusing license keys or external websites—payment is processed safely within the app using <strong>GCash, Maya, Debit/Credit Card (via PayMongo), or PayPal</strong>.<br><br>
-          • <strong>One-Time Founder Pricing:</strong> Just <strong>₱699 (Philippines) or $14.99 (International)</strong>. No subscriptions, no renewal fees, and your license is permanently bound to your Google Account.
+          We believe in radical transparency. Every user starts with <strong>7 Active-Use Days</strong> of Lifetime Pro access to test every feature on stage (Canva, Teleprompter, Lasers, Timers).<br><br>
+          • <strong>What happens after 7 days?</strong> Your app <strong>never stops working</strong>. It transitions into a Permanent Free Basic Clicker. You can always connect and use the Next/Previous buttons for PowerPoint for free, forever.<br><br>
+          • <strong>Seamless In-App Upgrade:</strong> To unlock the Pro features permanently, tap the 👑 Crown icon inside the Android app to pay via Google Play (supports GCash, Maya, Debit/Credit Card).<br><br>
+          • <strong>One-Time Founder Pricing:</strong> Just <strong>₱299</strong>. No subscriptions, no renewal fees, and your license is permanently bound to your Google Account.
       </div>
   </div>
 
@@ -363,14 +393,14 @@
   <div class="faq-item">
       <div class="faq-q" onclick="toggleFaq(this)">What happens to my Pro license if I lose my phone?</div>
       <div class="faq-a">
-          Your license is tied to your Google Account, not your physical device. If you upgrade your phone, simply download the app, sign in with the same Google Account, and your Pro status is instantly restored.
+          Your Lifetime Pro license is securely tied to your Google Account, not your physical device. If you upgrade your phone, simply download the app from Google Play, sign in with the same Google Account, and your Pro status is instantly restored.
       </div>
   </div>
 
   <div class="faq-item">
       <div class="faq-q" onclick="toggleFaq(this)">Does it work without internet during my presentation?</div>
       <div class="faq-a">
-          Yes. Once you have signed in at least once to verify your Pro license, it is securely cached on your phone. You do not need active internet to present using PowerPoint. The commands are sent over your Local Area Network (WiFi/Hotspot). Note: You obviously still need internet on the laptop if you are presenting via Canva or Google Slides.
+          Yes! If you are presenting via PowerPoint, the commands travel over your Local Area Network (WiFi/Hotspot). Note: You obviously still need internet on the laptop if you are presenting web decks via Canva or Google Slides.
       </div>
   </div>
 </div>
@@ -387,6 +417,12 @@
   <p style="margin-top: 16px; font-size: 0.8rem;">&copy; 2026 Abiso Solutions. All Rights Reserved.</p>
 </div>
 </footer>
+
+<!-- MOBILE STICKY BOTTOM BAR -->
+<div class="bar">
+    <div><b data-now>₱299</b><small>Lifetime · try 7 sessions free</small></div>
+    <a class="btn btn-main" href="https://play.google.com/store/apps/details?id=com.app.remotecontroller">Get started</a>
+</div>
 
 </body>
 </html>
